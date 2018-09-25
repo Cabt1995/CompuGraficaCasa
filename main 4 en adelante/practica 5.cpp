@@ -1,10 +1,24 @@
 //Semestre 2017 - 2
 //************************************************************//
 //************************************************************//
-//************** Alumno (s): *********************************//
-//*************											******//
-//*************											******//
+//************** Alumno (s): Basilio Torres Carlos Alberto****//
+//*************	Practica: 5										******//
+//*************	Version de nisual studio: 2017				******//
 //************************************************************//
+
+/*
+	Controles:
+	h -> baja los brazos
+	H -> sube los brazos
+	C -> mueve brazo hacia adelante
+	c-> mueve el brazo hacia atras
+	m -> mueve la mano hacia atras
+	M mueve la mano hacia delante
+	I-> mueve falanje inferior hacia adelante
+	i -> mueve falanje inferior hacia atras
+	O -> mueve falanje superior hacia adelante
+	o-> mueve falanje superior hacia atras
+*/
 #include "Main.h"
 
 float transZ = -5.0f;
