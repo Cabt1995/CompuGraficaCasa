@@ -18,13 +18,7 @@ DWORD dwElapsedTime = 0;
 //Variables used to create movement
 
 int sol = 0;
-int venus = 0;
 int mercurio = 0;
-int marte = 0;
-int tierra = 0;
-int jupiter = 0;
-int saturno = 0;
-int urano = 0;
 float ejey = 0.0f, ejex = 5.0f;
 float camaraZ = 3.0;
 float camaraX = 0.0;
@@ -69,7 +63,8 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glRotatef(ejex, 1, 0, 0);
 
 	glPushMatrix();
-
+/*Para este codigo unicamente necesitamos 2 variables, la rotacion del nucleo y los atomos, para poder hacer rotar las orbitas necesitamos
+mantener independientes las rotaciones de estos*/
 			glPushMatrix();
 				glRotatef(sol, 0.0, 1.0, 0.0);	//El Sol gira sobre su eje
 				glColor3f(1.0, 0, 0);	//Sol amarillo
@@ -308,4 +303,4 @@ int main(int argc, char** argv)   // Main Function
 	glutMainLoop();          // 
 
 	return 0;
-}
+}s
